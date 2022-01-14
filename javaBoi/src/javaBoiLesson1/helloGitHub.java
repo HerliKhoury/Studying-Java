@@ -12,12 +12,15 @@ public class helloGitHub {
 		//arredonda pra cima
 		System.out.printf("%.2f%n", x);
 		System.out.printf("%.3f%n", x);
-		Locale.setDefault(Locale.US);//Utiliza '.' no lugar de ',' como é nos US
+		//Locale.setDefault(Locale.US);//Utiliza '.' no lugar de ',' como é nos US
 		System.out.printf("%.3f%n", x);//Apenas depois de chamar a biblioteca é que funciona
 		
 		//Concatenando vários elementos em um comando de escrita
 		System.out.println("O meu pinto tem " + p + " metros.");
 		
+		
+		//Concatenando vários elementos utilizando printf
+		System.out.printf("Eu tenho %d frangos, cada um pesando %.2f kg",p,x);
 	}
 
 }
