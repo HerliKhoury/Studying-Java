@@ -20,7 +20,15 @@ public class helloGitHub {
 		
 		
 		//Concatenando vários elementos utilizando printf
-		System.out.printf("Eu tenho %d frangos, cada um pesando %.2f kg",p,x);
+		System.out.printf("Eu tenho %d frangos, cada um pesando %.2f kg %n",p,x);
+		
+		//Concatenando elementos de natureza diferente (printf)
+		
+		String mago = "Gandalf the Grey";
+		int idade = 5000;
+		double fumoEstocado = 35.234345;
+		System.out.printf("%s é um mago de %d anos, ele tem %.3f kg de fumo guardado. %n"
+				,mago, idade, fumoEstocado);
 	}
 
 }
