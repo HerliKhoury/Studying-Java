@@ -5,6 +5,7 @@ import java.util.Locale;//Biblioteca importada para usar Locale
 public class helloGitHub {
 
 	public static void main(String[] args) {
+		/*
 		double x = 23.1549334;
 		int p = 39;
 		
@@ -29,6 +30,21 @@ public class helloGitHub {
 		double fumoEstocado = 35.234345;
 		System.out.printf("%s é um mago de %d anos, ele tem %.3f kg de fumo guardado. %n"
 				,mago, idade, fumoEstocado);
+		*/
+		
+		//"Casting" --> Uma variável de um tipo recebe uma operação entre variáveis de 
+		// tipo igual porém difrentes da sua. A variável receptora irá mudar seu tipo
+		// para o das variáveis da operação.
+		
+		int k,z;
+		double result;
+		
+		k = 5;
+		z = 2;
+		
+		result = (double) k/z;//(double)-->Impede o casting e mantem a variável em seu tipo original
+		System.out.println(result);
+		
 	}
 
 }
