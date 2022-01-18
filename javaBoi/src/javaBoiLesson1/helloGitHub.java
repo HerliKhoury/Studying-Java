@@ -34,7 +34,7 @@ public class helloGitHub {
 		
 		//"Casting" --> Uma variável de um tipo recebe uma operação entre variáveis de 
 		// tipo igual porém difrentes da sua. A variável receptora irá mudar seu tipo
-		// para o das variáveis da operação.
+		// para o das variáveis da operação. 
 		
 		int k,z;
 		double result;
@@ -43,6 +43,8 @@ public class helloGitHub {
 		z = 2;
 		
 		result = (double) k/z;//(double)-->Impede o casting e mantem a variável em seu tipo original
+		                      //Na verdade a correçãão que é chamada Casting
+		
 		System.out.println(result);
 		
 	}
